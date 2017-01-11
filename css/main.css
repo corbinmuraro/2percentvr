@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'Graphik Regular';
+	src: url('../fonts/Graphik-Regular-Web.woff');
+	font-style: normal;
+	font-stretch: normal;
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: 'Graphik Regular';
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: none;
+}
+
+.container {
+	margin: 76px 72px	;
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+a {
+	color: #fff;
+	position: relative;
+	display: inline;
+}
+
+a:after {
+	position: absolute;
+	color: #fff;
+	font-size: 10px;
+	white-space: nowrap;
+	opacity: 0.3;
+	top: -16px;
+}
+
+a#dpgw:after {
+	content: "↪ dpgw.com";
+	left: -12px;
+}
+
+a#ucla:after {
+	content: "↪ ucla.edu";
+	left: -12px;
+}
+
+a#email:after {
+	content: "↪ hello@2percentvr.com";
+	left: -5px;
+}
+
+p {
+	margin-bottom: 24px;
+	line-height: 140%;
+}
+
