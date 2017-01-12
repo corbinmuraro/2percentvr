@@ -69,17 +69,17 @@ a:after {
 }
 
 a#dpgw:after {
-	content: "↪ dpgw.com";
+	content: "↪&#xFE0E; dpgw.com";
 	left: -12px;
 }
 
 a#ucla:after {
-	content: "↪ ucla.edu";
+	content: "↪&#xFE0E; ucla.edu";
 	left: -12px;
 }
 
 a#email:after {
-	content: "↪ hello@2percentvr.com";
+	content: "↪&#xFE0E; hello@2percentvr.com";
 	left: -5px;
 }
 
