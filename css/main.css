@@ -64,7 +64,7 @@ a:after {
 	color: #fff;
 	font-size: 10px;
 	white-space: nowrap;
-	opacity: 0.3;
+	opacity: 0.5;
 	top: -16px;
 }
 
@@ -88,3 +88,11 @@ p {
 	line-height: 140%;
 }
 
+@media (max-width: 700px) {
+	.container {
+		margin: 40px 32px;
+	}
+	a#dpgw:after, a#ucla:after {
+		display: none;
+	}
+}
